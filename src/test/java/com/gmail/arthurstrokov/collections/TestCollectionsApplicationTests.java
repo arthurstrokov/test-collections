@@ -57,6 +57,8 @@ class TestCollectionsApplicationTests {
 
         System.out.println(Arrays.toString(linkedList.toArray()));
 
+        assertEquals(4, linkedList.size());
+        
         linkedList.clear();
         assertTrue(linkedList.isEmpty());
         assertEquals(0, linkedList.size());
